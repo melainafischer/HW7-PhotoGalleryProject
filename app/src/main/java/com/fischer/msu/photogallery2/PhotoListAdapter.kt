@@ -8,7 +8,7 @@ import com.fischer.msu.photogallery2.api.GalleryItem
 import com.fischer.msu.photogallery2.databinding.ListGalleryFragmentBinding
 
 class PhotoViewHolder(
-    private val binding: ListGalleryFragmentBinding //ListItemGalleryBinding
+    private val binding: ListGalleryFragmentBinding
 ) : RecyclerView.ViewHolder(binding.root) {
     fun bind(galleryItem: GalleryItem) {
 
